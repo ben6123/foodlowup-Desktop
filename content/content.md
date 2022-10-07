@@ -126,3 +126,12 @@ Careers
 Recipe directory
 Help center
 Privacy & terms
+
+
+########
+
+## section
+
+-Hero section
+-features 
+-how it works
