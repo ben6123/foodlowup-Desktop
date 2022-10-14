@@ -31,9 +31,12 @@ tints:#fdf2e9
 shades:#cf711f
 accents:
 greys:
+#888
+#767676
 #6f6f6f 'lightest grey allowed on #e67e22'
 #555
 #333
+
 ---05 shadows
 :  box-shadow: 0 2.4rem 4.8rem 0 rgba(0, 0, 0, 0.17);
 
