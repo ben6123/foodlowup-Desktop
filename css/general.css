@@ -25,6 +25,8 @@ paragraph default:1.64
 Primary:#e67e22
 tints:#fdf2e9
       #fae5d3
+      #eb984e
+      
 shades:#cf711f
 accents:
 greys:
@@ -32,6 +34,8 @@ greys:
 #555
 #333
 ---05 shadows
+:  box-shadow: 0 2.4rem 4.8rem 0 rgba(0, 0, 0, 0.17);
+
 
 ---06 border_radius
 dafault:9px,11px
@@ -71,7 +75,7 @@ body {
   margin: 0 auto;
 }
 
-.grid {
+.grid{
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
@@ -219,9 +223,10 @@ margin-bottom: 9.6rem;
 .margin--right-sm {
   margin-right: 1.6rem !important;
 }
-.margin--bottom-sm {
+.margin--bottom-md {
   margin-bottom: 4.8rem !important;
 }
+
 
 strong{
   font-weight: 500;
