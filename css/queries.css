@@ -75,7 +75,7 @@
   }
 
   .hero-img {
-    width: 50%;
+    width: 80%;
   }
 
   .delivered-meals {
@@ -282,7 +282,6 @@ turns out it is not the best practice because
     gap: 1.2rem;
     
   }
-  
   
   .cta{
     grid-template-columns: 1fr;
