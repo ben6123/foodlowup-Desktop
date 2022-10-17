@@ -21,7 +21,7 @@
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 3.2rem;
+  gap: 4.8rem;
   align-items: center;
 }
 
@@ -53,6 +53,22 @@
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
+
+
+/* MOBILE */
+.btn-mobile-nav{
+  border: none;
+  background: none;
+}
+
+.icon-mobile-nav{
+height: 4.8rem;
+width: 4.8rem;
+}
+.icon-mobile-nav[name="close-outline"]{
+display: none;
+}
+
 
 /*************************************/
 /* HERO SECTION */
@@ -431,7 +447,6 @@
 }
 
 /* .feature{
-
 } */
 
 .feature-icon {

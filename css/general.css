@@ -1,33 +1,27 @@
 /* 
-
 ---01 typography  
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
 ---------font-weight:
 default:400
 medium:500
 semi-bold:600
 bold:700
-
 ---------line-height
 default:1
 small:1.05
 madium:1.2
 paragraph default:1.64
-
+large:1.8;
 ---letter spacing
 0.5px
 0.75px
-
 ---02 colors
-
 Primary:#e67e22
 tints:#fdf2e9
       #fae5d3
       #eb984e
       #45260a
-
 shades:#cf711f
 accents:
 greys:
@@ -36,20 +30,14 @@ greys:
 #6f6f6f 'lightest grey allowed on #e67e22'
 #555
 #333
-
 ---05 shadows
 :  box-shadow: 0 2.4rem 4.8rem 0 rgba(0, 0, 0, 0.17);
-
-
 ---06 border_radius
 dafault:9px,11px
-
-
 ---07 WHITE SPACE
 ---------SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
  
-
 */
 
 * {
@@ -234,6 +222,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
