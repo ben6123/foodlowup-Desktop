@@ -119,6 +119,7 @@
   /* mobile navigation */
   .btn-mobile-nav {
     display: block;
+    z-index: 100;
   }
 
   /*
@@ -146,7 +147,7 @@ turns out it is not the best practice because
     transform: translate(100%, 0);
 
     /* hide the navigation */
-    /* display none allows no transitions at all*/
+    /* display:none; allows no transitions at all*/
     /* display: none; */
 
     /* 1 hide it visually */
