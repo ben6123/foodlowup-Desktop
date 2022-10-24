@@ -2,7 +2,6 @@ console.log("Hello world!");
 
 const myName = "Jonas Ben";
 const h1 = document.querySelector(".heading-primary");
-
 console.log(myName);
 console.log(h1);
 
@@ -14,7 +13,7 @@ console.log(h1);
 
 ///////////////////////////////////////////////////////////
 // set current year
-const yearEl = document.querySelector('.year');
+const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
@@ -23,19 +22,19 @@ yearEl.textContent = currentYear;
 
 const btnNavEL = document.querySelector(".btn-mobile-nav");
 const headerEL = document.querySelector(".header");
-  
-btnNavEL.addEventListener('click', function(){
-  headerEL.classList.toggle('nav-open')
-})
-  
-///////////////////////////////////////////////////////  
+
+btnNavEL.addEventListener("click", function () {
+  headerEL.classList.toggle("nav-open");
+});
+
+///////////////////////////////////////////////////////
 // smooth scrolling
 
-const allLinks = document.querySelectorAll('a:link');
+const allLinks = document.querySelectorAll("a:link");
 // console.log(allLinks);
 
 allLinks.forEach(function (link) {
-  link.addEventListener('click', function (e) {
+  link.addEventListener("click", function (e) {
     e.preventDefault();
     const href = link.getAttribute("href");
 
@@ -54,9 +53,9 @@ allLinks.forEach(function (link) {
 
     // Close mobile naviagtion
     if (link.classList.contains("main-nav-link"))
-      headerEl.classList.toggle("nav-open");
-  })
-})
+      headerEL.classList.toggle("nav-open");
+  });
+});
 
 
 ///////////////////////////////////////////////////////////
