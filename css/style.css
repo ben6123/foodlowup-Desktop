@@ -74,6 +74,27 @@
   display: none;
 }
 
+/* STICKY NAV */
+.sticky .header{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.948);
+  z-index: 999;
+
+  box-shadow: 0 1.2em 3.2rem rgba(0, 0, 0, 0.03);
+}
+/* if the sticky style is added to the body 
+then .section-hero takes effect */
+.sticky .section-hero{
+  margin-top: 9.6rem;
+}
+
+
 /*************************************/
 /* HERO SECTION */
 /************************************/
